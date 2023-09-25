@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyramid = "==2.0.2"
+cookiecutter = "*"
+spionisto = {file = ".", editable = true}
+python-slugify = "*"
+
+[dev-packages]
+spionisto = {file = "."}
+
+[requires]
+python_version = "3.10"
